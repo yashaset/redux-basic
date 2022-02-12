@@ -8,3 +8,8 @@ export const decrement = () => {
     type: 'DECREMENT',
   };
 };
+export const signIn = () => {
+  return {
+    type: 'SIGN_IN',
+  };
+};
