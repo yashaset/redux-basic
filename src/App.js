@@ -34,3 +34,18 @@ function App() {
 }
 
 export default App;
+
+// mapDispatchToProps: similar as using useDispatch() hook in func compoenent
+// const mapDispatchToProps=disptach=>{
+//   return{
+//     increment:()=>disptach(increment()),
+//     decrement:()=>disptach(decrement()),
+//   }
+// }
+
+// mapStateToProps: mapStateToProps is similar as useSelector() in func compoenent
+// const mapStateToProps=state=>{
+//   return{
+//     counter: state.counter
+//   }
+// }
